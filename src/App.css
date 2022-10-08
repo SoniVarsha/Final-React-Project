@@ -1,0 +1,70 @@
+.navbarHeader {
+  display: flex;
+  height: 100px;
+  background-color: #567086;
+  padding: 0;
+  margin-top: 0;
+}
+
+.navLefthead {
+  text-decoration: none;
+  color: white;
+
+}
+
+.productAdminHead {
+  margin: 1.5% 5%;
+}
+
+.navRight {
+  display: flex;
+
+}
+
+.navItemHeader {
+  list-style: none;
+  margin: 5% 20%;
+}
+
+.navLink {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.icon {
+  margin-bottom: 10px;
+  width: 100%;
+font-size: x-large;
+}
+
+
+.footer{
+  background-color: #567086;
+  box-shadow: 0 -3px 5px 0 rgb(69 92 113 / 59%);
+  margin-bottom: 0px;
+}
+
+.footer p {
+  text-align: center;
+  padding: 20px;
+  font-size: medium;
+  color: white;
+}
+.bold{
+  margin-right: 5px ;
+}
+
+.template{
+  text-decoration: none;
+  color: white;
+}
+
+.nav-right{
+  margin-top: 10px;
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
+}
+

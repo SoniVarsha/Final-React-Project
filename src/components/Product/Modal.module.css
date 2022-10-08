@@ -1,0 +1,22 @@
+.modal {
+    background-color: #435c70;
+    width: 80vw;
+    margin: 3vw 10vw;
+    color: white;
+  }
+
+  .form{
+    text-align: center;
+    padding: 30px;
+  }
+
+  .btn {
+    color: #fff;
+    background-color: #f5a623;
+    border: 2px solid #f5a623;
+    font-size: 80%;
+    font-weight: 600;
+    width: 60%;
+    margin: 1vw;
+    padding: 10px;
+  }

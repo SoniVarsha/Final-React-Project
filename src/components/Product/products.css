@@ -1,0 +1,212 @@
+.product-container{
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    padding-right: 5%;
+  
+}
+
+.product-left{  
+    max-height: 465px;
+    margin-bottom: 15px;
+    overflow-y: auto;
+width: 100%;
+}
+
+.product-box{
+    background-color: #3c556e;
+    padding: 4%;
+    margin: 2%;
+    justify-content: space-between;
+    width: 51vw;
+   
+}
+
+table{
+    text-align: center;
+    background-color: #50697f;
+    color: #fff;
+    font-size: 85%;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.productLeftTable{
+    border: 2px solid black;
+}
+
+.productLeftTable th, .productLeftTable td{
+    border-top: 1px solid #415a70;
+    padding: 15px 15px;
+    vertical-align: middle;
+}
+
+input[type="checkbox"]:checked {
+    background: url(https://spng.pngfind.com/pngs/s/216-2167982_check-mark-white-tick-icon-no-background-hd.png) #394e64 center no-repeat;
+    background-size: 20px;
+    border-radius: 100%;
+  }
+
+.checkbox{
+    cursor: pointer;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #394e64;
+    background-position: center;
+    border-radius: 50%;
+    box-sizing: border-box;
+    position: relative;
+    box-sizing: content-box;
+    width: 24px;
+    height: 24px;
+    color: white;
+}
+
+.productBtn{
+    color: #fff;
+    background-color: #f5a623;
+    border: 2px solid #f5a623;
+    font-size: large;
+    font-weight: 600;
+    margin: 10px;
+    padding: 10px;
+    width: 43vw;
+}
+
+
+
+.productBtn:hover,  .productnewCategoryBtn:hover {
+    color: #f5a623;
+    background-color: #54657d0a;
+}
+
+.deleteIcon{
+    background: #394e64;
+    padding: 8px;
+    border-radius: 50%;
+    color: white;
+}
+
+.product-right{
+    margin-top: 2.2%;
+    background: #3c556e;
+    padding: 2% 4%;
+    color: white;
+    max-height: 600px;
+}
+
+.product-rightbox th, .product-rightbox td{
+    border-top: 1px solid #415a70;
+    padding: 15px 15px;
+    vertical-align: middle;
+}
+
+.productnewCategoryBtn{
+    color: #fff;
+    background-color: #f5a623;
+    border: 2px solid #f5a623;
+    font-size: large;
+    font-weight: 600;
+    margin: 20px;
+    padding: 15px
+}
+
+.product-rightcard{
+    overflow-y: scroll;
+    max-height: 425px;
+}
+
+/* AddProduct Page */
+.tm-mt-big {
+    margin-top: 57px;
+    margin-bottom: 60px
+}
+
+.row {
+ display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.tm-bg-primary-dark {
+    background-color: #435c70;
+    padding: 30px;
+}
+
+.tm-block-h-auto {
+    min-height: 1px;
+    max-height: none;
+    height: auto;
+}
+.tm-block {
+    padding: 40px;
+    box-shadow: 1px 1px 5px 0 #455c71;
+    min-height: 350px;
+    height: 100%;
+    /* max-height: 450px; */
+}
+
+.tm-block-title {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.form-group label {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.tm-product-img-dummy {
+    max-width: 100%;
+    height: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background: #aaa;
+}
+
+.form-control {
+    padding: 19px 18px;
+    border-radius: 0;
+    height: 50px;
+    background-color: #54657d;
+    color: #fff;
+    border: 0;
+}
+
+textarea.form-control {
+    height: auto;
+}
+
+.custom-select {
+    height: 50px;
+    border-radius: 0;
+    width: 100%;
+    border: none;
+    color: #acc6de;
+    height: 50px;
+    appearance: none;
+    border-radius: 0;
+    padding: 15px;
+    background: url(https://templatemo.com/templates/templatemo_524_product_admin/img/arrow-down.png) 98% no-repeat #50657b;
+}
+  
+.btn-primary {
+    color: #fff;
+    background-color: #f5a623;
+    border: 2px solid #f5a623;
+    font-size: 90%;
+    font-weight: 600;
+    width: 100%;
+}
+.btn {
+    border-radius: 0;
+    padding: 13px 28px;
+    transition: all 0.2s ease;
+    max-width: 100%;
+}
+
